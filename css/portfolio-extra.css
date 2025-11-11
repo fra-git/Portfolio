@@ -253,3 +253,18 @@ header .mt-3 .btn { min-width: 110px; }
     color: #FFFFFF !important;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Aggiunge un'ombra al testo per renderlo più leggibile */
 }
+
+
+/* 1. Navbar Trasparente/Semi-Trasparente per la sezione HERO */
+.transparent-nav {
+    background-color: rgba(0, 0, 0, 0.3) !important; 
+    box-shadow: none !important;
+    transition: background-color 0.3s ease-in-out; /* Aggiungi transizione per un effetto fluido */
+}
+
+/* 2. Navbar Nera Solida (o meglio, "colore dell'acqua") dopo lo scroll */
+.scrolled-nav {
+    background-color: #1A324E !important; /* Sostituisci con il colore scelto */
+    /* Puoi anche aggiungere una leggera ombra per dare profondità */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
+}
